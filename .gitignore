@@ -1,0 +1,133 @@
+# ==================== 操作系统文件 ====================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==================== IDE 配置文件 ====================
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Eclipse
+.classpath
+.project
+.settings/
+.metadata
+
+# Vim
+*.swp
+*.swo
+*~
+*.swn
+
+# ==================== 构建输出目录 ====================
+# Vue 前端构建
+vue3/dist/
+vue3/build/
+
+# Maven 后端构建
+springboot/target/
+springboot/*.jar
+springboot/*.war
+
+# Node.js 依赖
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==================== 日志和临时文件 ====================
+*.log
+*.tmp
+*.temp
+logs/
+
+# ==================== 环境变量文件 ====================
+.env
+.env.local
+.env.*.local
+!.env.example
+!.env.template
+
+# ==================== 测试相关文件 ====================
+coverage/
+.nyc_output/
+test-results/
+jest.config.js.local
+
+# ==================== 数据库文件 ====================
+*.sqlite
+*.sqlite3
+*.db
+*.sql.bak
+
+# ==================== 包管理器锁定文件(根据团队规范选择) ====================
+# 如果使用 npm,保留 package-lock.json
+# 如果使用 yarn,保留 yarn.lock
+# 如果使用 pnpm,保留 pnpm-lock.yaml
+
+# ==================== 其他常见忽略项 ====================
+# TypeScript
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Out of NPM usage
+out-tsc/
+
+# Storybook build outputs
+storybook-static/
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Spring Boot
+springboot/.mvn/wrapper/maven-wrapper.jar
+springboot/.mvn/wrapper/MavenWrapperDownloader.java
+
+# Redis dump
+dump.rdb
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
