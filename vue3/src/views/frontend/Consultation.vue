@@ -776,7 +776,7 @@ const startAIResponse = async (sessionId, userMessage) => {
           payloadText = dataLine ? dataLine.slice(5).trim() : ''
         }
         
-        if (evtName === 'done') {
+        if (evtName === 'done') {   //对话完成
           cleanup(true)
           nextTick(() => { scrollToBottom() })
           ctrl.abort()
